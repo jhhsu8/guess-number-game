@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Number Guessing Game</title>
+        <link rel="stylesheet" type="text/css" href="./css/lesson5.css" />
+        <script type="text/javascript" src="./script/lesson5.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Number Guessing Game</h1>
+            <div id="block1">
+            <p>Another user will enter a whole number from 1 to 999 in the box below.</p>
+            <p>Press the "Guess the Number" button to guess the number entered by the user in the box. You will be informed if the number guessed is greater than, less than or equal to the user's number. The total number of guesses will not exceed 10 times.</p>
+            <form action="" method="post" enctype="multipart/form-data" id="numberInput">
+                <p><label for="userinput">Enter a whole number from 1 to 999:</label>
+                <input type="text" name="userinput" id="userinput" size="15" maxlength="10" /></p>
+            </form>
+                <p><span onclick="submitGuess();">Guess the Number</span></p>
+            </div>
+            <div id="block2">
+                <p id="guessoutput">Guess Output:</p>
+                <div id="output"></div>
+            </div>
+        </div>
+    </body>
+</html>

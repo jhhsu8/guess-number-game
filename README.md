@@ -1,0 +1,1 @@
+I wrote the Guess Number Game in JavaScript.  In the game, a user will enter a whole number from 1 to 999 in the box and press the "Guess the Number" button to guess the number entered in the box. The user will be informed if the number guessed is greater than, less than or equal to the user's number. The total number of guesses will not exceed 10 times.
